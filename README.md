@@ -26,31 +26,6 @@ Bu proje **ROS 2 Humble** sürümü ile geliştirilmiştir.
 Aşağıdaki paketlerin yüklü olması gerekmektedir:
 
 sudo apt install ros-humble-desktop ros-humble-gazebo-ros-pkgs ros-humble-ros-gz-bridge
-## 🧩 Proje Yapısı
-.
-├── ball_chaser
-│   ├── ball_chaser
-│   ├── package.xml
-│   ├── resource
-│   ├── setup.cfg
-│   ├── setup.py
-│   └── test
-├── my_robot_bringup
-│   ├── CMakeLists.txt
-│   ├── config
-│   ├── include
-│   ├── launch
-│   ├── package.xml
-│   └── src
-└── my_robot_description
-    ├── CMakeLists.txt
-    ├── config
-    ├── include
-    ├── launch
-    ├── package.xml
-    ├── src
-    ├── urdf
-    └── worlds
 
 ## Kurulum Adımları
 mkdir -p ~/ros2_ws/src
